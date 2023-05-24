@@ -1,13 +1,13 @@
 // [rule: ^(.*)饿了$] 
 // [author: yuwei]
 // [create_at: 2022-12-27 14:08:00]
-// [version: v1.0.18]
+// [version: v1.0.19]
 // [title: 饿了么]
-// [description: 更新日志：增加乐园币查询。命令如下：查询饿了、管理饿了、记录饿了、拉黑饿了、解黑饿了、更新饿了、开启监听饿了、关闭监听饿了、授权饿了、打赏饿了。项目地址：https://github.com/younweri/BotJS。]
+// [description:  命令如下：查询饿了、管理饿了、记录饿了、拉黑饿了、解黑饿了、更新饿了、开启监听饿了、关闭监听饿了、授权饿了、打赏饿了]
 // [platform: qq,wx,tg]
 // [public: true]
-// [price: 1.00]
-// [service: QQ1375119534]
+// [price: 0.00]
+// [service: 无 ]
 //=======================================================
 var GetImType = GetImType()
 var nickname = param(1);
@@ -20,7 +20,7 @@ var qldizhi = "";
 var qlclient_id = "";
 var qlclient_secret = "";
 var qltokens = "";
-bucketSet(tongzi, "V", "1.0.18")
+bucketSet(tongzi, "V", "1.0.19")
 main();
 function main() {
     var ispeizhi = bucketGet(tongzi, "IsPeiZhi");
@@ -1415,18 +1415,18 @@ function XinXiZhanShi(ck) {
     var isimg = bucketGet(tongzi, "imgs")
     if (isimg == true || isimg == "true") {
         var icons = []
-        icons.push("http://bt.younweri.top:8888/down/wDeKplu3sxHv.jpg")
-        icons.push("http://bt.younweri.top:8888/down/Akjtz1UHtSPV.jpg")
-        icons.push("http://bt.younweri.top:8888/down/dnGJMM6StoNN.jpg")
-        icons.push("http://bt.younweri.top:8888/down/55nr6tMcKvQK.jpg")
-        icons.push("http://bt.younweri.top:8888/down/hMlYEgbr9iy7.jpg")
-        icons.push("http://bt.younweri.top:8888/down/ALRJS0Gstkip.jpg")
-        icons.push("http://bt.younweri.top:8888/down/3QGFopXxAiaE.jpg")
-        icons.push("http://bt.younweri.top:8888/down/3QGFopXxAiaE.jpg")
-        icons.push("http://bt.younweri.top:8888/down/TewkOCgDTHJO.jpg")
-        icons.push("http://bt.younweri.top:8888/down/zUX6bOLpmDw7.jpg")
-        icons.push("http://bt.younweri.top:8888/down/zUX6bOLpmDw7.jpg")
-        icons.push("http://bt.younweri.top:8888/down/1xQYW4r3yHqT.jpg")
+        icons.push("http://bt.younweri.top:8888/down/jVylS898TTOB.jpg")
+        icons.push("http://bt.younweri.top:8888/down/olusGri3YC64.jpg")
+        icons.push("http://bt.younweri.top:8888/down/xxur1YUyI1Qf.jpg")
+        icons.push("http://bt.younweri.top:8888/down/WffBLEVvbsBb.jpg")
+        icons.push("http://bt.younweri.top:8888/down/iOcKRpKpmgE4.jpg")
+        icons.push("http://bt.younweri.top:8888/down/g27ihRZHG3Pu.jpg")
+        icons.push("http://bt.younweri.top:8888/down/u74jYUANdHO2.jpg")
+        icons.push("http://bt.younweri.top:8888/down/u74jYUANdHO2.jpg")
+        icons.push("http://bt.younweri.top:8888/down/x8ERVzq53DE6.jpg")
+        icons.push("http://bt.younweri.top:8888/down/qzauKH9UUKnR.jpg")
+        icons.push("http://bt.younweri.top:8888/down/qzauKH9UUKnR.jpg")
+        icons.push("http://bt.younweri.top:8888/down/n9FCwAg3b53q.jpg")
         var msgs = []
         msgs.push("  序号:" + index)
         msgs.push("  ID：" + qq)
@@ -1458,11 +1458,11 @@ function XinXiZhanShi(ck) {
             },
             //图头
             "head": {
-                "image": "http://bt.younweri.top:8888/down/oTKC12p9Siml.jpg"//图片头（非必要）
+                "image": "http://bt.younweri.top:8888/down/yQMD7DsZ2nAc.jpg"//图片头（非必要）
             },
             //图尾
             "foot": {
-                "image": "http://bt.younweri.top:8888/down/Ya5HPIrJwbGd.jpg"//图片尾（非必要）
+                "image": "http://bt.younweri.top:8888/down/Y1t4yK0DwrGF.jpg"//图片尾（非必要）
             }
         })
         sendImage(img["url"])
